@@ -1,0 +1,24 @@
+//1. to install virtual enviranment environment 
+Pip install virtualenv
+
+
+//2. Create the Virtual Environment 
+python -m venv .venv
+
+//Activate the Environment
+.venv\Scripts\activate
+
+
+//install packages 
+pip install pymongo
+
+//map with requirement.txt file 
+pip list > requirement.txt
+
+//to list list of packages
+pip list
+
+//to uninstall packages 
+pip uninstall pymongo  //then map to the requirement.txt becouse you have to update the txt file tooo
+
+
