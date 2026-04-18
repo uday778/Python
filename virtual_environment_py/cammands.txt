@@ -22,3 +22,6 @@ pip list
 pip uninstall pymongo  //then map to the requirement.txt becouse you have to update the txt file tooo
 
 
+
+//Install from a file:
+ pip install -r requirements.txt
